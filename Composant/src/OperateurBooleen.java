@@ -1,5 +1,5 @@
 
-public class operateurBooleen extends Composant {
+public class OperateurBooleen extends Composant {
 
 	public boolean non(boolean x) {
 		return !x;
@@ -14,7 +14,7 @@ public class operateurBooleen extends Composant {
 	}
 
 	public boolean ouExclusif(boolean x, boolean y) {
-		return ou(et(x, y), (non(et(x, y)));
+		return ou(et(x, y), (non(et(x, y))));
 	}
 
 }
