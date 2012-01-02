@@ -1,4 +1,4 @@
 package Composant;
 
-public class buffer extends Composant {
+public class Buffer extends CollectionDonnee {
 }

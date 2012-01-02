@@ -1,6 +1,6 @@
 package Composant;
 
-public class testLogique extends Composant {
+public class TestLogique extends Composant {
 
 	public void egalite() {
 		throw new UnsupportedOperationException();

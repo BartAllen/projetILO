@@ -1,4 +1,4 @@
 package Composant;
 
-public class producteur extends Composant {
+public class Producteur extends Composant {
 }

@@ -1,6 +1,6 @@
 package Composant;
 
-public class autreFonction extends Composant {
+public class AutreFonction extends Composant {
 
 	public void derivee() {
 		throw new UnsupportedOperationException();

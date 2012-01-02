@@ -1,5 +1,5 @@
 
-public class operateurBinaire extends Composant {
+public class OperateurBinaire extends Composant {
 	
 	public double multiplication(double x, double y) {
 		return x * y;

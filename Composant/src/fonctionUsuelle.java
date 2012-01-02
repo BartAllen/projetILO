@@ -1,6 +1,6 @@
 import java.lang.Math;
 
-public class fonctionUsuelle extends Composant {
+public class FonctionUsuelle extends Composant {
 
 	public double puissance(double x, double y) {
 		return Math.pow(x, y);

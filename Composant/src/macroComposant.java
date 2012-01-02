@@ -1,4 +1,4 @@
 package Composant;
 
-public class macroComposant {
+public class MacroComposant {
 }

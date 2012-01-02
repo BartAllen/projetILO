@@ -1,5 +1,5 @@
 
-public class operateurBooleen extends Composant {
+public class OperateurBooleen extends Composant {
 
 	public boolean non(boolean x) {
 		return !x;

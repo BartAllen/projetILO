@@ -1,4 +1,4 @@
 package Composant;
 
-public class collectionDonnée {
+public class CollectionDonnee {
 }
