@@ -1,4 +1,4 @@
-package Composant;
+
 
 public class TestLogique extends Composant {
 
