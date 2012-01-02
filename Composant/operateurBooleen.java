@@ -1,0 +1,21 @@
+package Composant;
+
+public class operateurBooleen extends Composant {
+
+	public void non() {
+		throw new UnsupportedOperationException();
+	}
+
+	public void et() {
+		throw new UnsupportedOperationException();
+	}
+
+	public void ou() {
+		throw new UnsupportedOperationException();
+	}
+
+	public void ouExclusif() {
+		throw new UnsupportedOperationException();
+	}
+
+}
