@@ -22,36 +22,44 @@ public class fonctionUsuelle extends Composant {
 		return x;
 	}
 
-	public void cos() {
-		throw new UnsupportedOperationException();
+	public double cos(double x) {
+		return Math.cos(x);
 	}
 
-	public void sin() {
-		throw new UnsupportedOperationException();
+	public double sin(double x) {
+		return Math.sin(x);
 	}
 
-	public void tan() {
-		throw new UnsupportedOperationException();
+	public double tan(double x) {
+		return Math.tan(x);
 	}
 
-	public void acos() {
-		throw new UnsupportedOperationException();
+	public double acos(double x) {
+		return Math.acos(x);
 	}
 
-	public void arrondi() {
-		throw new UnsupportedOperationException();
+	public double arrondi(double x) {
+		return Math.round(x);
 	}
 
-	public void min() {
-		throw new UnsupportedOperationException();
+	public double min(double x, double y) {
+		if(x > y){
+			return y;
+		} else {
+			return x;
+		}
 	}
 
-	public void max() {
-		throw new UnsupportedOperationException();
+	public double max(double x, double y) {
+		if(x < y){
+			return y;
+		} else {
+			return x;
+		}
 	}
 
-	public void absolue() {
-		throw new UnsupportedOperationException();
+	public double absolue(double x) {
+		return Math.abs(x);
 	}
 
 }
