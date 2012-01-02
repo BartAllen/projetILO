@@ -2,28 +2,28 @@
 
 public class TestLogique extends Composant {
 
-	public void egalite() {
-		throw new UnsupportedOperationException();
+	public Boolean egalite( double x, double y ) {
+		return (x==y);
 	}
 
-	public void difference() {
-		throw new UnsupportedOperationException();
+	public Boolean difference( double x, double y ) {
+		return (x!=y);
 	}
 
-	public void inferieurStrict() {
-		throw new UnsupportedOperationException();
+	public Boolean inferieurStrict( double x, double y ) {
+		return (x<y);
 	}
 
-	public void superieurStrict() {
-		throw new UnsupportedOperationException();
+	public Boolean superieurStrict( double x, double y ) {
+		return (x>y);
 	}
 
-	public void inferieurEgal() {
-		throw new UnsupportedOperationException();
+	public Boolean inferieurEgal( double x, double y ) {
+		return (x<=y);
 	}
 
-	public void superieurEgal() {
-		throw new UnsupportedOperationException();
+	public Boolean superieurEgal( double x, double y ) {
+		return (x>=y);
 	}
 
 }
