@@ -1,0 +1,8 @@
+//package Composant;
+
+public class operateurBinaire extends Composant {
+	
+	public <T> multiplication(<T> x, <T> y) {
+		return x * y;
+	}
+}

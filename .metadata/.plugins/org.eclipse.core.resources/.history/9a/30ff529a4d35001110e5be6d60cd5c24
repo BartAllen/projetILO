@@ -1,0 +1,19 @@
+
+public class operateurBinaireFloat {
+
+	public float multiplication(float x, float y) {
+		return x * y;
+	}
+	
+	public float division(float x, float y) {
+		return x / y;
+	}
+	
+	public float addition(float x, float y){
+		return x + y;
+	}
+	
+	public float soustraction(float x, float y){
+		return x - y;
+	}
+}

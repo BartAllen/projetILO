@@ -1,0 +1,11 @@
+
+public class operateurBinaireInt {
+
+	public int operation(int x, int y) {
+		return x * y;
+	}
+	
+	public int operation(int x, int y) {
+		return x / y;
+	}
+}

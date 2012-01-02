@@ -1,0 +1,21 @@
+//package Composant;
+
+public class operateurBooleen extends Composant {
+
+	public boolean non(boolean x) {
+		return !x;
+	}
+
+	public boolean et(boolean x, boolean y) {
+		return x && y;
+	}
+
+	public boolean ou(boolean x, boolean y) {
+		return x || y;
+	}
+
+	public boolean ouExclusif(boolean x, boolean y) {
+		return ou(et(x, y), (non(et(x, y)));
+	}
+
+}

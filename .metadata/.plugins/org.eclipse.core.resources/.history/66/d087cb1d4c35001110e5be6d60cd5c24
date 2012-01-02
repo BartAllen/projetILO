@@ -1,0 +1,29 @@
+//package Composant;
+
+public class operateurBinaire extends Composant {
+
+	public int multiplication(int x, int y) {
+		return x * y;
+	}
+
+	public float multiplication(float x, float y) {
+		return x* y;
+	}
+	
+	public int division() {
+		throw new UnsupportedOperationException();
+	}
+
+	public int addition(int x, int y) {
+		return x + y;
+	}
+
+	public float addition() {
+		throw new UnsupportedOperationException();
+	}
+	
+	public void soustraction() {
+		throw new UnsupportedOperationException();
+	}
+
+}

@@ -1,0 +1,11 @@
+
+public class division extends operateurBinaire{
+	
+	public int operation(int x, int y) {
+		return x / y;
+	}
+
+	public float operation(float x, float y) {
+		return x / y;
+	}
+}

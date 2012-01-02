@@ -1,0 +1,53 @@
+import java.lang.Math;
+
+public class fonctionUsuelle extends Composant {
+
+	public double puissance(double x, double y) {
+		return Math.pow(x, y);
+	}
+
+	public double exponentielle() {
+		return Math.pow(x, y);
+	}
+
+	public void logarithme() {
+		throw new UnsupportedOperationException();
+	}
+
+	public void factorielle() {
+		throw new UnsupportedOperationException();
+	}
+
+	public void cos() {
+		throw new UnsupportedOperationException();
+	}
+
+	public void sin() {
+		throw new UnsupportedOperationException();
+	}
+
+	public void tan() {
+		throw new UnsupportedOperationException();
+	}
+
+	public void acos() {
+		throw new UnsupportedOperationException();
+	}
+
+	public void arrondi() {
+		throw new UnsupportedOperationException();
+	}
+
+	public void min() {
+		throw new UnsupportedOperationException();
+	}
+
+	public void max() {
+		throw new UnsupportedOperationException();
+	}
+
+	public void absolue() {
+		throw new UnsupportedOperationException();
+	}
+
+}
